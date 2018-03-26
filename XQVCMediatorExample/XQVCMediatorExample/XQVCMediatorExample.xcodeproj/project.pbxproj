@@ -13,8 +13,8 @@
 		6E9F98282068DDFE006A5225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F98272068DDFE006A5225 /* Assets.xcassets */; };
 		6E9F982B2068DDFE006A5225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F98292068DDFE006A5225 /* LaunchScreen.storyboard */; };
 		6E9F982E2068DDFE006A5225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F982D2068DDFE006A5225 /* main.m */; };
-		6E9F983A2068DE11006A5225 /* UIViewController+Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F98362068DE11006A5225 /* UIViewController+Mediator.m */; };
-		6E9F983B2068DE11006A5225 /* XQVCMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F98382068DE11006A5225 /* XQVCMediator.m */; };
+		6E9F98422068E3C6006A5225 /* UIViewController+Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F983E2068E3C6006A5225 /* UIViewController+Mediator.m */; };
+		6E9F98432068E3C6006A5225 /* XQVCMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F98402068E3C6006A5225 /* XQVCMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +28,11 @@
 		6E9F982A2068DDFE006A5225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E9F982C2068DDFE006A5225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E9F982D2068DDFE006A5225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6E9F98352068DE11006A5225 /* UIViewController+Mediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Mediator.h"; sourceTree = "<group>"; };
-		6E9F98362068DE11006A5225 /* UIViewController+Mediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Mediator.m"; sourceTree = "<group>"; };
-		6E9F98372068DE11006A5225 /* XQVCMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQVCMediator.h; sourceTree = "<group>"; };
-		6E9F98382068DE11006A5225 /* XQVCMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQVCMediator.m; sourceTree = "<group>"; };
-		6E9F98392068DE11006A5225 /* XQVCMediatorHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQVCMediatorHeader.h; sourceTree = "<group>"; };
+		6E9F983D2068E3C6006A5225 /* UIViewController+Mediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Mediator.h"; sourceTree = "<group>"; };
+		6E9F983E2068E3C6006A5225 /* UIViewController+Mediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Mediator.m"; sourceTree = "<group>"; };
+		6E9F983F2068E3C6006A5225 /* XQVCMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQVCMediator.h; sourceTree = "<group>"; };
+		6E9F98402068E3C6006A5225 /* XQVCMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQVCMediator.m; sourceTree = "<group>"; };
+		6E9F98412068E3C6006A5225 /* XQVCMediatorHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQVCMediatorHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,7 @@
 		6E9F98122068DDFE006A5225 = {
 			isa = PBXGroup;
 			children = (
-				6E9F98342068DE11006A5225 /* Mediator */,
+				6E9F983C2068E3C6006A5225 /* XQVCMediator */,
 				6E9F981D2068DDFE006A5225 /* XQVCMediatorExample */,
 				6E9F981C2068DDFE006A5225 /* Products */,
 			);
@@ -79,17 +79,17 @@
 			path = XQVCMediatorExample;
 			sourceTree = "<group>";
 		};
-		6E9F98342068DE11006A5225 /* Mediator */ = {
+		6E9F983C2068E3C6006A5225 /* XQVCMediator */ = {
 			isa = PBXGroup;
 			children = (
-				6E9F98352068DE11006A5225 /* UIViewController+Mediator.h */,
-				6E9F98362068DE11006A5225 /* UIViewController+Mediator.m */,
-				6E9F98372068DE11006A5225 /* XQVCMediator.h */,
-				6E9F98382068DE11006A5225 /* XQVCMediator.m */,
-				6E9F98392068DE11006A5225 /* XQVCMediatorHeader.h */,
+				6E9F983D2068E3C6006A5225 /* UIViewController+Mediator.h */,
+				6E9F983E2068E3C6006A5225 /* UIViewController+Mediator.m */,
+				6E9F983F2068E3C6006A5225 /* XQVCMediator.h */,
+				6E9F98402068E3C6006A5225 /* XQVCMediator.m */,
+				6E9F98412068E3C6006A5225 /* XQVCMediatorHeader.h */,
 			);
-			name = Mediator;
-			path = ../../Mediator;
+			name = XQVCMediator;
+			path = ../../XQVCMediator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,11 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E9F983B2068DE11006A5225 /* XQVCMediator.m in Sources */,
+				6E9F98432068E3C6006A5225 /* XQVCMediator.m in Sources */,
 				6E9F98232068DDFE006A5225 /* ViewController.m in Sources */,
 				6E9F982E2068DDFE006A5225 /* main.m in Sources */,
 				6E9F98202068DDFE006A5225 /* AppDelegate.m in Sources */,
-				6E9F983A2068DE11006A5225 /* UIViewController+Mediator.m in Sources */,
+				6E9F98422068E3C6006A5225 /* UIViewController+Mediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
