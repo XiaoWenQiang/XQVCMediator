@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = "RXVCMediator"
+  s.name     = "XQVCMediator"
   s.version  = "1.0.0"
   s.license  = "MIT"
   s.summary  = "ViewController push or present with Mediator"
